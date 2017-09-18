@@ -19,7 +19,7 @@ let deleteFromObjectByKey = (object, key, value) => {
 }
 
 let destructivelyDeleteFromObjectByKey = (object, key) => {
-    delete object.key
+    delete object[key]
     return object
 
   }
