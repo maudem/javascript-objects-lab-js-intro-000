@@ -1,1 +1,1 @@
-var recipes = newObj()
+var recipes = []
