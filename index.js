@@ -7,6 +7,6 @@ let updateObjectWithKeyAndValue = (object, key, value) => {
 }
 
 let destructivelyUpdateObjectWithKeyAndValue = (object, key, value) => {
-  object.key = value
+  object.key = []
   return object
 }
