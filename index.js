@@ -15,5 +15,5 @@ let deleteFromObjectByKey = (object, key, value) => {
   let obj = {key: value}
   let newObj = Object.assign({}, object)
   delete newObj.key
-
+  return newObj
 }
