@@ -17,4 +17,3 @@ let deleteFromObjectByKey = (object, key, value) => {
   delete newObj.key
   obj
 }
-
